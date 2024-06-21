@@ -1,0 +1,38 @@
+eevdefv 
+create table mobile_details (
+
+    id INT AUTO_INCREMENT Primary key,
+    mobile_brand varchar(255) NOT NULL,
+    model varchar(255) not null,
+    ram varchar(255),
+    storage varchar(255)
+
+);
+
+insert into mobile_details (mobile_brand,model,ram,storage) values
+('Samsung','S24','16GB','256GB'),
+('Samsung','S24Ultra','16GB','256GB'),
+('Samsung','S24','8GB','256GB'),
+('Samsung','S24','16GB','512GB'),
+('Samsung','S24Ultra','16GB','512GB'),
+('Oneplus','Nord','12GB','256GB'),
+('Oneplus','Nord','8GB','128GB'),
+('Oneplus','Nord2','12GB','256GB'),
+('Oneplus','Nord2','16GB','512GB'),
+('Oneplus','Nord3','12GB','256GB'),
+('Oneplus','Nord3','16GB','512GB'),
+('Vivo','8','8GB','128GB'),
+('Vivo','8','16GB','256GB'),
+('Vivo','9','8GB','128GB'),
+('Vivo','9','16GB','256GB'),
+('Vivo','10','8GB','128GB'),
+('Vivo','10','16GB','256GB'),
+('Apple','13','6GB','128GB'),
+('Apple','13','8GB','256GB'),
+('Apple','13','8GB','512GB'),
+('Apple','14','6GB','128GB'),
+('Apple','14','8GB','256GB'),
+('Apple','14','8GB','512GB'),
+('Apple','15','6GB','128GB'),
+('Apple','15','8GB','256GB'),
+('Apple','15','8GB','512GB');
